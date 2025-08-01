@@ -2,7 +2,9 @@
 // API helper with interceptors, CSRF, sensitive data obfuscation, error handler
 //
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "/api"; // can override for local dev
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:8000"; // API backend URL
+
+// For deployment: Set REACT_APP_API_BASE_URL to backend URL (e.g. http://backend:8000), or use "/api" if proxy is set up.
 
 // Returns token from storage (for protected routes)
 function getAuthToken() {

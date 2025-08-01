@@ -1,7 +1,8 @@
 {
-  "name": "react-kavia",
-  "version": "0.1.0",
+  "name": "autoinvestor-frontend",
+  "version": "1.0.0",
   "private": true,
+  "description": "Frontend (React SPA) for Auto-Investor platform. Now standalone; all backend APIs go to a configurable backend URL.",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
