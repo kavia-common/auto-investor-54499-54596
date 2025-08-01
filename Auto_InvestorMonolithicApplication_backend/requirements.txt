@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+# Add additional backend/DB/AI packages as needed
